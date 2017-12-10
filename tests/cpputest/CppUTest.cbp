@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CppUTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\cpputest\;CMake Files\libs\cpputest\cmake\;CMake Files\libs\cpputest\cmake\Modules\;CMake Files\libs\cpputest\src\;CMake Files\libs\cpputest\src\CppUTest\;CMake Files\libs\cpputest\src\CppUTestExt\;CMake Files\libs\cpputest\tests\;CMake Files\libs\cpputest\tests\CppUTestExt\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTest">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/libCppUTest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 CppUTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTest/fast">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/libCppUTest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 CppUTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTestExt">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/libCppUTestExt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 CppUTestExt"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTestExt/fast">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/libCppUTestExt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 CppUTestExt/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTestTests">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 CppUTestTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTestTests/fast">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 CppUTestTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTestExtTests">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/CppUTestExtTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 CppUTestExtTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CppUTestExtTests/fast">
+				<Option output="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/CppUTestExtTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DCPPUTEST_HAVE_FORK"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest"/>
+					<Add directory="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 CppUTestExtTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/CommandLineArguments.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/CommandLineTestRunner.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/CppUTestConfig.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/JUnitTestOutput.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/MemoryLeakDetector.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/MemoryLeakDetectorMallocMacros.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/MemoryLeakDetectorNewMacros.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/MemoryLeakWarningPlugin.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/PlatformSpecificFunctions.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/PlatformSpecificFunctions_c.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/SimpleString.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/StandardCLibrary.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TeamCityTestOutput.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestFailure.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestFilter.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestHarness.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestHarness_c.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestMemoryAllocator.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestOutput.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestPlugin.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestRegistry.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestResult.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/TestTestingFixture.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/Utest.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTest/UtestMacros.h">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/CodeMemoryReportFormatter.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/GMock.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/GTest.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/GTestConvertor.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/IEEE754ExceptionsPlugin.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MemoryReportAllocator.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MemoryReportFormatter.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MemoryReporterPlugin.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockActualCall.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockCheckedActualCall.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockCheckedExpectedCall.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockExpectedCall.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockExpectedCallsList.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockFailure.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockNamedValue.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockSupport.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockSupportPlugin.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/MockSupport_c.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/include/CppUTestExt/OrderedTest.h">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/CommandLineArguments.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/CommandLineTestRunner.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/JUnitTestOutput.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/MemoryLeakDetector.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/MemoryLeakWarningPlugin.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/SimpleMutex.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/SimpleString.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TeamCityTestOutput.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestFailure.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestFilter.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestHarness_c.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestMemoryAllocator.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestOutput.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestPlugin.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestRegistry.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestResult.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/TestTestingFixture.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/Utest.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/CodeMemoryReportFormatter.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/IEEE754ExceptionsPlugin.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MemoryReportAllocator.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MemoryReportFormatter.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MemoryReporterPlugin.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockActualCall.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockExpectedCall.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockExpectedCallsList.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockFailure.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockNamedValue.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockSupport.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockSupportPlugin.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/MockSupport_c.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/OrderedTest.cpp">
+			<Option target="CppUTestExt"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/Platforms/Gcc/UtestPlatform.cpp">
+			<Option target="CppUTest"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllTests.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllTests.h">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllocLetTestFree.c">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllocLetTestFree.h">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllocLetTestFreeTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllocationInCFile.c">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllocationInCFile.h">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllocationInCppFile.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/AllocationInCppFile.h">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CheatSheetTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CommandLineArgumentsTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CommandLineTestRunnerTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/AllTests.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/CodeMemoryReporterTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/ExpectedFunctionsListTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/GMockTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/GTest1Test.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/IEEE754PluginTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/IEEE754PluginTest_c.c">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/IEEE754PluginTest_c.h">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MemoryReportAllocatorTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MemoryReportFormatterTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MemoryReporterPluginTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockActualCallTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockCallTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockCheatSheetTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockComparatorCopierTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockExpectedCallTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockFailureReporterForTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockFailureReporterForTest.h">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockFailureTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockHierarchyTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockNamedValueTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockParameterTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockPluginTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockReturnValueTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockStrictOrderTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockSupportTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockSupport_cTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockSupport_cTestCFile.c">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/MockSupport_cTestCFile.h">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/OrderedTestTest.cpp">
+			<Option target="CppUTestExtTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/JUnitOutputTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/MemoryLeakDetectorTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/MemoryLeakWarningTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/MemoryOperatorOverloadTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/PluginTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/PreprocessorTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/SetPluginTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/SimpleMutexTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/SimpleStringTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TeamCityOutputTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestFailureNaNTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestFailureTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestFilterTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestHarness_cTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestHarness_cTestCFile.c">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestInstallerTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestMemoryAllocatorTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestOutputTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestRegistryTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestResultTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestUTestMacro.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/TestUTestStringMacro.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/UtestPlatformTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/UtestTest.cpp">
+			<Option target="CppUTestTests"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cpputest.pc.in">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/CppUTestConfig.cmake.install.in">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/CppUTestConfig.cmake.build.in">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/config.h.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cpputest.pc.in">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/CppUTestConfig.cmake.install.in">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/CppUTestConfig.cmake.build.in">
+			<Option virtualFolder="CMake Files\libs\cpputest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestConfigurationOptions.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestWarningFlags.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestBuildTimeDiscoverTests.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestNormalizeTestOutputLocation.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestConfigurationOptions.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestWarningFlags.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestBuildTimeDiscoverTests.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/cmake/Modules/CppUTestNormalizeTestOutputLocation.cmake">
+			<Option virtualFolder="CMake Files\libs\cpputest\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\src\CppUTest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\src\CppUTest\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\src\CppUTestExt\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/src/CppUTestExt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\src\CppUTestExt\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\tests\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\tests\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\tests\CppUTestExt\"/>
+		</Unit>
+		<Unit filename="/Users/florian/Programming/Github/GamepadBlockCore/libs/cpputest/tests/CppUTestExt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\cpputest\tests\CppUTestExt\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
