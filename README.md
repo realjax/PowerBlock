@@ -1,3 +1,6 @@
+!!!! see PowerSwitch.h for assigning alternative pins!!!!!
+
+
 PowerBlock Driver
 =================
 
